@@ -1,0 +1,138 @@
+body {
+    background-color:black;
+    color: white;
+    font-family: Arial;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 0;
+    /*bold?*/
+}
+
+.wd-bookmark-handle {
+    font-size: 13px;
+    color: lightgray;
+    margin-top: 0;
+}
+
+.wd-overall-layout {
+    margin-left: 16px;
+    /*border-style: solid;*/
+    /*border-width: 2px;*/
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-upper-bookmarks-A {
+    margin-left:16px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+.wd-lower-posts {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: rgb(47, 51, 54);
+    font-size: 15px;
+}
+
+.wd-post {
+    border-bottom: 1px solid;
+    border-color: rgb(47, 51, 54);
+    display: flex;
+}
+
+.wd-left-profile-photo-B {
+    width: 64px;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+
+.wd-right-parts {
+    width: 90%;
+    margin-left: 12px;
+    margin-right: 12px; /*not sure if needed*/
+    /*border-left: 1px solid;*/
+    /*border-right: 1px solid;*/
+    /*border-color: rgb(47, 51, 54);*/
+
+}
+
+.wd-image-profile-photo {
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+}
+
+.wd-author-C {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.wd-username {
+    font-weight: bold;
+}
+.wd-user-handle {
+    color: lightgray;
+}
+
+.wd-main-content-D {
+    width: 506px;
+    margin-right: 16px;
+    margin-bottom: 12px;
+}
+
+.wd-sharing-E-F {
+    margin-top: 12px;
+    border-radius: 20px;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-image-sharing {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.wd-sharing-contents {
+    padding: 12px;
+}
+.wd-sharing-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.wd-sharing-abstract {
+    color: lightgray;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.wd-sharing-link {
+    color: lightgray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.wd-interactions-G{
+    color: lightgray;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+
+.wd-liked {
+    color: red;
+}
