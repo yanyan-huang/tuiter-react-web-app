@@ -4,6 +4,15 @@ body {
     font-family: Arial;
 }
 
+.wd-overall-layout {
+    margin-left: 16px;
+    /*border-style: solid;*/
+    /*border-width: 2px;*/
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: rgb(47, 51, 54);
+}
+
 h2 {
     font-size: 20px;
     font-weight: bold;
@@ -18,14 +27,6 @@ h2 {
     margin-top: 0;
 }
 
-.wd-overall-layout {
-    margin-left: 16px;
-    /*border-style: solid;*/
-    /*border-width: 2px;*/
-    border-left: 1px solid;
-    border-right: 1px solid;
-    border-color: rgb(47, 51, 54);
-}
 
 .wd-upper-bookmarks-A {
     margin-left:16px;
@@ -41,6 +42,7 @@ h2 {
 }
 
 .wd-post {
+    padding-bottom: 10px;
     border-bottom: 1px solid;
     border-color: rgb(47, 51, 54);
     display: flex;
@@ -132,6 +134,19 @@ h2 {
     align-items: flex-start;
 
 }
+
+.fa-comment {
+    padding-right: 5px;
+}
+
+.fa-retweet {
+    padding-right: 5px;
+}
+
+.fa-heart {
+    padding-right: 5px;
+}
+
 
 .wd-liked {
     color: red;
