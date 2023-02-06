@@ -267,14 +267,33 @@ p#id-selector-2 {
     height: 200px;
 }
 
+.gradients-linear2 {
+    background: linear-gradient(blue, black);
+    width: 200px;
+    height: 200px;
+}
+
 .gradients-radial {
     background: radial-gradient(yellow, green);
     width: 200px;
     height: 200px;
 }
 
+.gradients-radial2 {
+    background: radial-gradient(olive, pink);
+    width: 200px;
+    height: 200px;
+}
+
 .gradients-positioned {
     background: radial-gradient(at top left, blue, red);
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+.gradients-positioned2 {
+    background: radial-gradient(at top right, black, lightpink);
     width: 200px;
     height: 200px;
     color: white;
