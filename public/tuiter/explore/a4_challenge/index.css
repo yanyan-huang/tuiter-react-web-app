@@ -1,0 +1,165 @@
+body {
+    min-width:576px;
+}
+
+.pos-relative-nudge-up-right {
+    position: relative;
+    bottom: 30px;
+    left: 8px;
+    font-weight: bold;
+}
+.pos-relative-nudge-up {
+    position: relative;
+    bottom: 20px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    /*z-index: 10;*/
+}
+
+.head-image {
+    width: 100%;
+    margin: 0;
+}
+
+.post-image {
+    width: 60px;
+    height: 60px;
+    margin: 3px;
+    border-radius: 3px;
+    float: end;
+}
+
+.image-logo {
+    height: 40px;
+    float: end;
+    margin-right: 30px;
+    /*position: relative;*/
+    /*margin-right: 2px;*/
+}
+
+.news {
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+}
+
+post {
+    color: rgb(29,161,242);
+    border: 1px solid;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin: 3px;
+}
+
+h3 {
+    font-size: 13px;
+    /*font-weight: bold;*/
+    color: black;
+    margin: 3px;
+}
+h4 {
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(110, 118, 125);
+    margin: 3px;
+}
+
+.icon-black {
+    color: black
+}
+
+.icon-white {
+    color: white;
+}
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+.text-blue {
+    color: #0dcaf0;
+}
+
+.icon-blue {
+    color: deepskyblue;
+}
+
+.fa-search {
+    color: gray;
+    padding-left: 5px;
+}
+
+.fa-gear {
+    color: black;
+    padding-top: 5px;
+}
+
+.bg-lightgray {
+    color: lightgray;
+}
+
+.btn-primary.override-bs {
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+    /*border-width: 10px;*/
+    /*border-radius: 20px;*/
+    /*border-style: dashed;*/
+    /*font-size: 2em;*/
+    /*font-weight: bolder;*/
+}
+
+.list-group-item.override-bs {
+    border: 0;
+    margin-bottom: 4px;
+}
+
+.list-group-item.active {
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    z-index: 0;
+}
+
+/*.nav-link.active {*/
+/*    border-bottom: 4px solid deepskyblue;*/
+/*}*/
+
+.wd-part-B {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.wd-B-link{
+    margin: 0;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-active {
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    /*color: rgb(29,161,242);*/
+    border-bottom: 4px solid rgb(29,161,242);
+}
+
+.list-group.override-bs {
+    border: 0;
+}
+
+.bg-lightgray {
+    background-color: rgba(211, 225, 225, 0.2);
+    /*z-index: 10;*/
+}
