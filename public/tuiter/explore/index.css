@@ -75,6 +75,9 @@ h4 {
     color: black
 }
 
+.icon-blue {
+    color: blue;
+}
 .vertical-center {
     display: flex;
     align-items: center;
