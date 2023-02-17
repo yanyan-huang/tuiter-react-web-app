@@ -54,16 +54,14 @@ post {
 h2 {
     font-size: 15px;
     font-weight: bold;
-    /*color: black;*/
-    color: white;
+    color: black;
     margin: 3px;
 }
 
 h3 {
     font-size: 13px;
     /*font-weight: bold;*/
-    /*color: black;*/
-    color: white;
+    color: black;
     margin: 3px;
 }
 h4 {
@@ -80,11 +78,6 @@ h4 {
 .icon-blue {
     color: blue;
 }
-
-.icon-white {
-    color: white;
-}
-
 .vertical-center {
     display: flex;
     align-items: center;
