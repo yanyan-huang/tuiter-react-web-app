@@ -2,7 +2,7 @@
 // to be updated with full details
 export default [
     {
-        avatar: '../../images/java.png',
+        avatar: '../../images/elonmusk.jpeg',
         userName: 'Elon Musk',
         handle: 'elonmusk',
         time: '23h',
@@ -18,7 +18,7 @@ export default [
     {
         avatar: '../../images/newyorkpost.png',
         userName: 'New York Post',
-        handle: '@nypost',
+        handle: 'nypost',
         time: '23h',
         message: "Grimes seen reading Karl Marx following split with the world's richest man Elon Musk. \<a href=\"#\">trib.al\/nx2Gfaq<\/a>",
         image: '../../images/grimes.jpeg',

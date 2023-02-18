@@ -1,18 +1,24 @@
 const PostItem = (posts) => {
     return(`
-            <div class="row m-0 pt-1 pb-1">
-                <div class=" col-2 ">
-                    <img class="post-image float-end" src=${posts.avatar}>
+            <div class="row m-0 pt-1 pb-1 pe-2 post borders">
+                <div class=" col-2 pt-2">
+                    <img class="post-image rounded-circle float-end" src=${posts.avatar}>
                 </div>
-                <div class="col-10 post">
-                    <div class="d-flex justify-content-start align-items-end">
-                        <h2>${posts.userName}</h2>
-                        <i class="fa fa-check-circle icon-white mb-1"></i>
-                        <h4> @${posts.handle}</h4>
-                        <h4> · ${posts.time}</h4>
+                <div class="col-10 pt-2">
+                    <div class=" d-flex justify-content-between">
+                        <div class="col-11 d-flex justify-content-start align-items-end">
+                            <h2>${posts.userName}</h2>
+                            <i class="fa fa-check-circle icon-white mb-1"></i>
+                            <h4> @${posts.handle}</h4>
+                            <h4> · ${posts.time}</h4>
+                        </div>
+                        <div class="col-1">
+                            <i class="fa fa-ellipsis-h float-end"></i>
+                        </div>
                     </div>
+                    
                     <h3 class="mt-0 pt-0 pb-1">${posts.message}</h3>
-                    <div class="card border">
+                    <div class="card mt-2">
                        <img src=${posts.image}
                             class="card-img-top" alt="...">
                        ${cardbody(posts)}    

@@ -43,13 +43,13 @@ body {
 
 .news {
     font-size: 15px;
-    color: rgb(110, 118, 125);
+    /*color: rgb(110, 118, 125);*/
 }
 
-post {
-    color: rgb(29,161,242);
-    border: 1px solid;
-}
+/*post {*/
+/*    color: rgb(29,161,242);*/
+/*    border: 1px solid;*/
+/*}*/
 
 h2 {
     font-size: 15px;
