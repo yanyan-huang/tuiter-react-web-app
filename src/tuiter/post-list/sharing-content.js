@@ -5,7 +5,7 @@ const SharingContent = ({post}) => {
     if(post.sharingAbstract !== "") {
         return (
             <div className="card-body">
-                <h3 className="card-title">{post.sharingTitle}</h3>
+                <div className="card-title fw-bold">{post.sharingTitle}</div>
                 <p className="card-text">
                     {post.sharingAbstract}
                     <br/>

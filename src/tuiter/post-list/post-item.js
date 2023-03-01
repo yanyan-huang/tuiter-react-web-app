@@ -28,18 +28,18 @@ const PostItem = (
             </div>
             <div className="col-10 pt-2">
                 <div className=" d-flex justify-content-between">
-                    <div className="col-11 d-flex justify-content-start align-items-end">
-                        <h2>{post.userName}</h2>
+                    <div className="col-11 d-flex justify-content-start align-items-end align-items-center">
+                        <div className="fw-bold">{post.userName}</div>
                         <i className="fa fa-check-circle icon-blue mb-1"></i>
-                        <h4> @{post.handle}</h4>
-                        <h4> · {post.time}</h4>
+                        @{post.handle}
+                        · {post.time}
                     </div>
                     <div className="col-1">
                         <i className="fa fa-ellipsis-h float-end icon-gray"></i>
                     </div>
                 </div>
 
-                <h4 className="mt-0 pt-0 pb-1">{post.message}</h4>
+                <div className="mt-0 pt-0 pb-1">{post.message}</div>
                 <div className="card mt-2">
                     <img src={post.image}
                          className="card-img-top" alt="..."></img>
