@@ -3,6 +3,8 @@ import {Link} from "react-router-dom";
 import {useLocation} from "react-router";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 
 const NavigationSidebar = (
@@ -15,7 +17,7 @@ const NavigationSidebar = (
     return (
         <div className="list-group">
             <Link to="/tuiter/home"  className="list-group-item">
-              <i class="fa fa-twitter fa-2x icon-blue"></i> </Link>
+              <i class="fab fa-twitter fa-2x icon-blue"></i> </Link>
             {/*<Link to="/tuiter/home"  className="list-group-item">*/}
             {/*    <i class="fa fa-twitter fa-2x icon-blue"></i> Tuiter</Link>*/}
             {/*<div className="list-group-item">*/}

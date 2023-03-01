@@ -25,7 +25,7 @@ function Tuiter() {
             {/*<div className="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">*/}
             {/*    <WhoToFollowList/>*/}
             {/*</div>*/}
-            <div className="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
+            <div className="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
                 <Routes>
                     <Route path="home"    element={<PostSummaryList/>}/>
                     <Route path="explore" element={<WhoToFollowList/>}/>
