@@ -79,7 +79,7 @@
 //              <li class="list-group-item">
 //                 <div class="row align-items-center">
 //                     <div class="col-2">
-//                         <img src="../../../images/Tesla.jpg" class="rounded-circle image-logo">
+//                         <img src="../../../images/tesla.png" class="rounded-circle image-logo">
 //                     </div>
 //                     <div class="col-6">
 //                         <div class="d-flex justify-content-start align-items-center">

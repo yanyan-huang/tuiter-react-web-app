@@ -2,6 +2,9 @@
 // import Nav from "../../nav";
 import Classes from "./classes";
 import Styles from "./styles";
+import ConditionalOutput from "./conditional-output";
+// import TodoItemtodo from "./todo/todo-item.js";
+import TodoList from "./todo/todo-list";
 
 function Assignment6() {
     return(
@@ -11,6 +14,9 @@ function Assignment6() {
             {/*<Link to="/tuiter">Tuiter</Link>*/}
             {/*<Nav/>*/}
             <h1>Assignment 6</h1>
+            {/*<TodoItemtodo/>*/}
+            <TodoList/>
+            <ConditionalOutput/>
             <Styles/>
             <Classes/>
         </div>
