@@ -14,8 +14,12 @@ const NavigationSidebar = (
 
     return (
         <div className="list-group">
-            <a className="list-group-item">
-              <i class="fa fa-twitter"></i> Tuiter</a>
+            <Link to="/tuiter/home"  className="list-group-item">
+              <i class="fa fa-twitter fa-2x icon-blue"></i> </Link>
+            {/*<Link to="/tuiter/home"  className="list-group-item">*/}
+            {/*    <i class="fa fa-twitter fa-2x icon-blue"></i> Tuiter</Link>*/}
+            {/*<div className="list-group-item">*/}
+            {/*    <i class="fa fa-twitter"></i> </div>*/}
             <Link to="/tuiter/home" className={`list-group-item ${active === 'home'?'active':''}`}>
                 <div className="d-flex justify-content-start">
                     <i className="fa fa-home mt-1 me-1"></i>
@@ -68,7 +72,7 @@ const NavigationSidebar = (
             {/*<a className={`list-group-item ${active === 'bookmarks'?'active':''}`}> Bookmarks </a>*/}
             {/*<a className={`list-group-item ${active === 'lists'?'active':''}`}>Lists </a>*/}
             {/*<a className={`list-group-item ${active === 'profile'?'active':''}`}> Profile </a>*/}
-            <a className={`list-group-item ${active === 'more'?'active':''}`}> More </a>
+            <Link to="/tuiter/more"  className={`list-group-item ${active === 'more'?'active':''}`}> More </Link>
             <Link to="/" className="list-group-item"> Labs </Link>
 
             <div className="d-grid mt-2">

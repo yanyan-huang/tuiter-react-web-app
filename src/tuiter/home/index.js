@@ -1,6 +1,6 @@
 import React from "react";
 import PostList from "../post-list";
-import PostSummaryList from "../post-summary-list";
+// import PostSummaryList from "../post-summary-list";
 // import NavigationSidebar from "../navigation-sidebar";
 const HomeComponent = () => {
     return(

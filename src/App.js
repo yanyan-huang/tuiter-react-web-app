@@ -1,6 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
 // do we still need the above imports??
+import './App.css';
 
 import Labs from "./labs";
 import HelloWorld from "./labs/a6/hello-world";
@@ -15,7 +15,6 @@ function App() {
                 <Routes>
                     <Route index element={<Labs/>}/>
                     <Route path="/hello" element={<HelloWorld/>}/>
-                    {/*<Route path="/tuiter" element={<Tuiter/>}/>*/}
                     <Route path="/tuiter/*" element={<Tuiter/>}/>
                 </Routes>
             </div>

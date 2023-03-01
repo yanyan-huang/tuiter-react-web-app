@@ -24,7 +24,7 @@ const PostItem = (
     return(
         <div className="row m-0 pt-1 pb-1 pe-2 post borders">
             <div className=" col-2 pt-2">
-                <img className="post-image rounded-circle float-end" src={post.avatar}></img>
+                <img className="post-image rounded-circle float-end" alt="" src={post.avatar}></img>
             </div>
             <div className="col-10 pt-2">
                 <div className=" d-flex justify-content-between">
