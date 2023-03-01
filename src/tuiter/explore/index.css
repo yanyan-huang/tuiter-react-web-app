@@ -11,8 +11,13 @@
     padding-bottom: 20px;
 }
 
+.wd-nudge-right {
+    /*bottom: 10px;*/
+    left: 25px;
+}
+
 .wd-nudge-up {
-    bottom: 18px;
+    bottom: 10px;
     left: 25px;
 }
 

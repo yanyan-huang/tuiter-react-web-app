@@ -1,4 +1,5 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 const WhoToFollowListItem = (
     {
         who = { userName: 'NASA', handle: 'NASA', avatarIcon: 'nasa.png' }
@@ -10,9 +11,9 @@ const WhoToFollowListItem = (
                 <div className="col-2">
                     <img className="rounded-circle" height={48} src={`/images/${who.avatarIcon}`} alt=""/>
                 </div>
-                <div className="col-8">
+                <div className="col-8 ps-4">
                     <div className="fw-bold">{who.userName}</div>
-                    <div>@{who.handle}</div>
+                    <div className="text-secondary">@{who.handle}</div>
                 </div>
                 <div className="col-2">
                     <button className="btn btn-primary rounded-pill float-end">Follow</button>
