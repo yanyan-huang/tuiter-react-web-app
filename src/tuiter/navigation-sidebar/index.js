@@ -66,7 +66,18 @@ const NavigationSidebar = (
                     <span className="d-none d-xl-block"> Profile </span>
                 </div>
             </Link>
-
+            <Link to="/tuiter/more" className={`list-group-item ${active === 'more'?'active':''}`}>
+                <div className="d-flex justify-content-start">
+                    <i className="fa fa-comment-dots mt-1 me-1"></i>
+                    <span className="d-none d-xl-block"> More </span>
+                </div>
+            </Link>
+            <Link to="/" className={`list-group-item ${active === 'labs'?'active':''}`}>
+                <div className="d-flex justify-content-start">
+                    <i className="bi bi-calendar-fill me-1"></i>
+                    <span className="d-none d-xl-block"> Labs </span>
+                </div>
+            </Link>
             {/*<a className={`list-group-item ${active === 'home'?'active':''}`}> Home </a>*/}
             {/*<a className={`list-group-item ${active === 'explore'?'active':''}`}> Explore</a>*/}
             {/*<a className={`list-group-item ${active === 'notifications'?'active':''}`}> Notifications </a>*/}
@@ -74,8 +85,8 @@ const NavigationSidebar = (
             {/*<a className={`list-group-item ${active === 'bookmarks'?'active':''}`}> Bookmarks </a>*/}
             {/*<a className={`list-group-item ${active === 'lists'?'active':''}`}>Lists </a>*/}
             {/*<a className={`list-group-item ${active === 'profile'?'active':''}`}> Profile </a>*/}
-            <Link to="/tuiter/more"  className={`list-group-item ${active === 'more'?'active':''}`}> More </Link>
-            <Link to="/" className="list-group-item"> Labs </Link>
+            {/*<Link to="/tuiter/more"  className={`list-group-item ${active === 'more'?'active':''}`}> More </Link>*/}
+            {/*<Link to="/" className="list-group-item"> Labs </Link>*/}
 
             <div className="d-grid mt-2">
                 <Link to="tweet.html"

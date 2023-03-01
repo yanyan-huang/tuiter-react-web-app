@@ -4,7 +4,7 @@ import PostSummaryItem from "./post-summary-item";
 
 const PostSummaryList = () => {
     return(
-        <ul className="list-group">
+        <ul className="list-group pt-0">
             {
                 postsArray.map(post =>
                     <PostSummaryItem

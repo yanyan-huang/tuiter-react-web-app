@@ -67,7 +67,8 @@ const PostItem = (
                         <i className="fa fa-heart pe-2"></i>{post.likes}
                     </div>
                     <div className="col-3">
-                        <i className="fa fa-arrow-circle-o-up pe-2"></i>
+                        {/*<i className="fa fa-arrow-circle-o-up pe-2"></i>*/}
+                        <i className="bi bi-box-arrow-up pe-2"></i>
                     </div>
                 </div>
 
