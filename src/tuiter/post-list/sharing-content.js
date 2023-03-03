@@ -6,10 +6,10 @@ const SharingContent = ({post}) => {
         return (
             <div className="card-body">
                 <div className="card-title fw-bold">{post.sharingTitle}</div>
-                <p className="card-text">
+                <p className="card-text text-secondary">
                     {post.sharingAbstract}
                     <br/>
-                    <i className="fa fa-link"></i>{post.sharingSource}
+                    <i className="fa fa-link">&nbsp;</i>{post.sharingSource}
                 </p>
             </div>
         );

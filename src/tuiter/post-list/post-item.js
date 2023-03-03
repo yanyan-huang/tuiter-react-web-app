@@ -30,9 +30,8 @@ const PostItem = (
                 <div className=" d-flex justify-content-between">
                     <div className="col-11 d-flex justify-content-start align-items-end align-items-center">
                         <div className="fw-bold">{post.userName}</div>
-                        <i className="fa fa-check-circle icon-blue mb-1"></i>
-                        @{post.handle}
-                        · {post.time}
+                        &nbsp;<i className="fa fa-check-circle icon-blue mb-1"></i>&nbsp;
+                        <span className="text-secondary"> @{post.handle} · {post.time} </span>
                     </div>
                     <div className="col-1">
                         <i className="fa fa-ellipsis-h float-end icon-gray"></i>

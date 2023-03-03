@@ -49,6 +49,7 @@ body {
 }
 
 .post {
+    font-size: 15px;
     /*border-bottom: 2px solid rgb(211, 211, 211, 0.2);*/
     /*border-left: 2px solid rgb(211, 211, 211, 0.2);*/
     /*border-right: 2px solid rgb(211, 211, 211, 0.2);*/
@@ -107,7 +108,7 @@ body {
 
 .card-body {
     /*border-top: 2px solid rgb(211, 211, 211, 0.2);*/
-    font-size: 13px;
+    font-size: 15px;
 
 }
 
