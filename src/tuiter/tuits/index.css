@@ -1,0 +1,104 @@
+body {
+    min-width:576px;
+}
+
+.pos-relative-nudge-up-right {
+    position: relative;
+    bottom: 30px;
+    left: 8px;
+    font-weight: bold;
+}
+.pos-relative-nudge-up {
+    position: relative;
+    bottom: 20px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.head-image {
+    width: 100%;
+    margin: 0;
+}
+
+.post-image {
+    width: 60px;
+    margin: 1px;
+    border-radius: 3px;
+    float: end;
+}
+
+.image-logo {
+    height: 40px;
+    float: end;
+    margin-right: 20px;
+}
+
+.wd-image-profile-photo {
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+}
+
+.news {
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+}
+
+.post {
+    font-size: 15px;
+    /*border-bottom: 2px solid rgb(211, 211, 211, 0.2);*/
+    /*border-left: 2px solid rgb(211, 211, 211, 0.2);*/
+    /*border-right: 2px solid rgb(211, 211, 211, 0.2);*/
+}
+
+.icon-blue {
+    color: dodgerblue;
+}
+
+.icon-red {
+    color: red;
+}
+
+.icon-gray {
+    color: darkgray
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    border-radius: 20px;
+    border-color: rgba(211, 211, 211, 0.2);
+    background: 0;
+}
+
+.card-img-top {
+    border-radius: 20px;
+
+}
+
+.card-body {
+    /*border-top: 2px solid rgb(211, 211, 211, 0.2);*/
+    font-size: 15px;
+
+}
+
+.card-img-top {
+    border-radius: 20px;
+
+}
+
+.wd-interactions-G {
+    color: gray;
+    font-size: 13px;
+}
+
+.borders {
+    border: 1px solid rgb(211, 211, 211, 0.2);
+}
