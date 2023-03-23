@@ -22,7 +22,6 @@ function Tuiter() {
             </div>
             <div className="col-10 col-md-10 col-lg-7 col-xl-6"
                  style={{"position": "relative"}}>
-                {/*<ExploreComponent/>*/}
                 <Routes>
                     <Route index element={<HomeComponent/>}/>
                     <Route path="home"    element={<HomeComponent/>}/>
@@ -32,7 +31,7 @@ function Tuiter() {
 
             <div className="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
                 <Routes>
-                    <Route index element={<PostSummaryList/>}/>
+                    <Route index element={<WhoToFollowList/>}/>
                     <Route path="home"    element={<WhoToFollowList/>}/>
                     <Route path="explore" element={<PostSummaryList/>}/>
                 </Routes>
