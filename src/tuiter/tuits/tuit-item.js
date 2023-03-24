@@ -2,7 +2,7 @@ import React from "react";
 import {useDispatch} from "react-redux";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TuitStats from "./tuit-stats";
-import {deleteTuit} from "./tuits-reducer";
+import {deleteTuit} from "../reducers/tuits-reducer";
 
 const TuitItem = (
     {

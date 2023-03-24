@@ -1,17 +1,25 @@
 import React from "react"; 
 import ExploreComponent from "./explore";
 import NavigationSidebar from "./navigation-sidebar";
-import WhoToFollowList from "./who-to-follow-list";
 import { Routes, Route } from "react-router";
 import whoReducer from "./reducers/who-reducer";
-import tuitsReducer from "./tuits/tuits-reducer"; // import the new tuits reducer
+import tuitsReducer from "./reducers/tuits-reducer"; // import the new tuits reducer
+import profileReducer from "./reducers/profile-reducer"; // import the new profile reducer
 import { configureStore } from '@reduxjs/toolkit';
 import { Provider } from "react-redux";
-// do we need to import the below two lines?
+
+import WhoToFollowList from "./who-to-follow-list";
 import HomeComponent from "./home";
 import PostSummaryList from "./post-summary-list";
+import ProfileComponent from "./profile";
+import EditProfile from "./edit-profile";
 
-const store = configureStore({reducer: {who: whoReducer, tuits: tuitsReducer}}); // add it to the store
+const store = configureStore(
+    {reducer: 
+        {who: whoReducer, 
+        tuits: tuitsReducer,
+        profile: profileReducer,
+    }}); // add it to the store
 
 function Tuiter() {
     return (
@@ -26,14 +34,18 @@ function Tuiter() {
                     <Route index element={<HomeComponent/>}/>
                     <Route path="home"    element={<HomeComponent/>}/>
                     <Route path="explore" element={<ExploreComponent/>}/>
+                    <Route path="profile" element={<ProfileComponent/>}/>
+                    <Route path="edit-profile" element={<EditProfile/>}/>
                 </Routes>
             </div>
 
             <div className="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
                 <Routes>
-                    <Route index element={<WhoToFollowList/>}/>
-                    <Route path="home"    element={<WhoToFollowList/>}/>
-                    <Route path="explore" element={<PostSummaryList/>}/>
+                    <Route index element={<PostSummaryList/>}/>
+                    <Route path="home"    element={<PostSummaryList/>}/>
+                    <Route path="explore" element={<WhoToFollowList/>}/>
+                    <Route path="profile" element={<WhoToFollowList/>}/>
+                    <Route path="edit-profile" element={<WhoToFollowList/>}/>
                 </Routes>
             </div>
         </div>
