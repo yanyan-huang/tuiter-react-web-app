@@ -139,7 +139,7 @@ const EditProfile = () => {
                     <label for="birthInput" className="position-absolute mt-3 ms-3">Date of Birth</label>
                     <input
                         id="birthInput" 
-                        type="date"
+                        // type="date"
                         onChange={(event) => setProfile({...profile, dateOfBirth: event.target.value})}
                         value={profile.dateOfBirth} 
                         className="form-control text-black pt-4 mt-3 ps-3" 
