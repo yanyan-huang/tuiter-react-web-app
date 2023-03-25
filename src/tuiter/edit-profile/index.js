@@ -72,7 +72,7 @@ const EditProfile = () => {
                 </div>
 
                 <div className="form-group p-3 mt-4">
-                    <label for="nameInput" className="position-absolute mt-3 ms-3">Name</label>
+                    {/* <label for="nameInput" className="position-absolute mt-3 ms-3">Name</label>
                     <input
                         id="nameInput" 
                         // value={firstName + " " + lastName} 
@@ -83,7 +83,7 @@ const EditProfile = () => {
                         className="form-control text-black ps-3 pt-4 mt-3" 
                         rows="1"
                         style={{height: "60px"}}>
-                    </input>
+                    </input> */}
 
                     <label for="firstNameInput" className="position-absolute mt-3 ms-3">First Name</label>
                     <input
@@ -139,6 +139,7 @@ const EditProfile = () => {
                     <label for="birthInput" className="position-absolute mt-3 ms-3">Date of Birth</label>
                     <input
                         id="birthInput" 
+                        type="date"
                         onChange={(event) => setProfile({...profile, dateOfBirth: event.target.value})}
                         value={profile.dateOfBirth} 
                         className="form-control text-black pt-4 mt-3 ps-3" 
