@@ -58,7 +58,9 @@ const EditProfile = () => {
             {profile.dateOfBirth} */}
             <div className="d-flex mb-1 pe-3">
                 <div className="col-10 d-flex align-items-center mb-1">
-                    <i className="bi bi-x-lg ps-2"></i>
+                    <Link to="/tuiter/profile"> 
+                        <i className="bi bi-x-lg ps-2"></i>
+                    </Link>
                     {/* <div className="fs-4 fw-bold text-black ps-3">{profile.name}</div> */}
                     <div className="fs-4 fw-bold text-black ps-3">{profile.firstName} {profile.lastName}</div>
                 </div>

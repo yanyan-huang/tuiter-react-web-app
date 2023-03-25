@@ -7,7 +7,11 @@ const ProfileComponent = () => {
     return(
         <div className="text-secondary">
             <div className="d-flex flex-row mb-1">
-                <i className="bi bi-arrow-left p-3"></i>
+                <Link to="/tuiter/home">
+                    <i className="bi bi-arrow-left p-3"></i>
+                </Link>
+
+                
                 <div className="ps-3">
                     <div className="fs-4 fw-bold text-black">{profile.firstName} {profile.lastName}</div>
                     <h6 className="">{profile.numberOfTweets} Tweets</h6>
