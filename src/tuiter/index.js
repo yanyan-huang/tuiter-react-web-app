@@ -1,6 +1,4 @@
 import React from "react"; 
-import ExploreComponent from "./explore";
-import NavigationSidebar from "./navigation-sidebar";
 import { Routes, Route } from "react-router";
 import whoReducer from "./reducers/who-reducer";
 import tuitsReducer from "./reducers/tuits-reducer"; // import the new tuits reducer
@@ -8,6 +6,8 @@ import profileReducer from "./reducers/profile-reducer"; // import the new profi
 import { configureStore } from '@reduxjs/toolkit';
 import { Provider } from "react-redux";
 
+import ExploreComponent from "./explore";
+import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list";
 import HomeComponent from "./home";
 import PostSummaryList from "./post-summary-list";
@@ -15,11 +15,15 @@ import ProfileComponent from "./profile";
 import EditProfile from "./edit-profile";
 
 const store = configureStore(
-    {reducer: 
-        {who: whoReducer, 
-        tuits: tuitsReducer,
-        profile: profileReducer,
-    }}); // add it to the store
+    {reducer: {
+        who: whoReducer, 
+        // tuitsData: tuitsReducer}}); // rename reducer property since now it's not just an array
+        tuitsData: tuitsReducer, // rename reducer property since now it's not just an array
+        profile: profileReducer}}); 
+    //     tuits: tuitsReducer,
+    //     profile: profileReducer,
+    // }}); // add it to the store
+console.log(store.getState());
 
 function Tuiter() {
     return (
@@ -40,13 +44,14 @@ function Tuiter() {
             </div>
 
             <div className="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
-                <Routes>
+                <WhoToFollowList/>
+                {/* <Routes>
                     <Route index element={<PostSummaryList/>}/>
                     <Route path="home"    element={<PostSummaryList/>}/>
                     <Route path="explore" element={<WhoToFollowList/>}/>
                     <Route path="profile" element={<WhoToFollowList/>}/>
                     <Route path="edit-profile" element={<WhoToFollowList/>}/>
-                </Routes>
+                </Routes> */}
             </div>
         </div>
         </Provider>

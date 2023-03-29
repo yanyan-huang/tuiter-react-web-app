@@ -2,7 +2,9 @@ import React from "react";
 import {useDispatch} from "react-redux";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TuitStats from "./tuit-stats";
-import {deleteTuit} from "../reducers/tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
+// import {deleteTuit} from "../reducers/tuits-reducer";
+
 
 const TuitItem = (
     {
@@ -17,13 +19,14 @@ const TuitItem = (
 ) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-    dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
+    // dispatch(deleteTuit(id));
     }
 
     return(
         <li className="list-group-item">
             <div className="row">
-                <div className=" col-2">
+                <div className="col-2">
                     <img className="post-image rounded-circle float-end" alt="" src={`/images/${post.image}`}></img>
                 </div>
                 <div className="col-10">
