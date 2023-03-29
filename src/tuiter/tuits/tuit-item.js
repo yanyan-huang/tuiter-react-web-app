@@ -33,7 +33,7 @@ const TuitItem = (
                     <i className="bi bi-x-lg float-end"
                        onClick={() => deleteTuitHandler(post._id)}></i>
                     <div className="d-flex justify-content-start align-items-center">
-                        <div className="fw-bold">{post.userName}</div>
+                        <div className="fw-bold">{post.username}</div>
                         &nbsp;<i className="fa fa-check-circle icon-blue mb-1"></i>&nbsp;
                         <span className="text-secondary"> {post.handle} · {post.time} </span>
                     </div>
