@@ -18,10 +18,6 @@ const NavigationSidebar = (
         <div className="list-group">
             <Link to="/tuiter/home"  className="list-group-item">
               <i class="fab fa-twitter fa-2x icon-blue"></i> </Link>
-            {/*<Link to="/tuiter/home"  className="list-group-item">*/}
-            {/*    <i class="fa fa-twitter fa-2x icon-blue"></i> Tuiter</Link>*/}
-            {/*<div className="list-group-item">*/}
-            {/*    <i class="fa fa-twitter"></i> </div>*/}
             <Link to="/tuiter/home" className={`list-group-item ${active === 'home'?'active':''}`}>
                 <div className="d-flex justify-content-start">
                     <i className="fa fa-home mt-1 me-1"></i>

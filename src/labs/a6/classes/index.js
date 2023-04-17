@@ -11,7 +11,6 @@ function Classes() {
                                    wd-fg-black wd-padding-10px`}>
                 Dangerous background</div>
 
-            {/*do we need to comment this out?*/}
             <div className={`wd-bg-${color} wd-fg-black wd-padding-10px`}>
                 Dynamic Blue background</div>
 

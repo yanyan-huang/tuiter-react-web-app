@@ -1,7 +1,3 @@
-// import logo from './logo.svg';
-// do we still need the above imports??
-import './App.css';
-
 import Labs from "./labs";
 import HelloWorld from "./labs/a6/hello-world";
 import Tuiter from "./tuiter";

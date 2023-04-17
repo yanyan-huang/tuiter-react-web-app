@@ -15,22 +15,17 @@ function Tuiter() {
             </div>
             <div className="col-10 col-md-10 col-lg-7 col-xl-6"
                  style={{"position": "relative"}}>
-                {/*<ExploreComponent/>*/}
                 <Routes>
                     <Route index element={<HomeComponent/>}/>
-                    <Route path="home"    element={<HomeComponent/>}/>
-                    <Route path="explore" element={<ExploreComponent/>}/>
+                    <Route path="/home"    element={<HomeComponent/>}/>
+                    <Route path="/explore" element={<ExploreComponent/>}/>
                 </Routes>
             </div>
-            {/*// shall we keep the WhoToFollowList?*/}
-            {/*<div className="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">*/}
-            {/*    <WhoToFollowList/>*/}
-            {/*</div>*/}
             <div className="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
                 <Routes>
                     <Route index element={<PostSummaryList/>}/>
-                    <Route path="home"    element={<PostSummaryList/>}/>
-                    <Route path="explore" element={<WhoToFollowList/>}/>
+                    <Route path="/home"    element={<PostSummaryList/>}/>
+                    <Route path="/explore" element={<WhoToFollowList/>}/>
                 </Routes>
             </div>
         </div>
