@@ -21,8 +21,8 @@ const ProfileComponent = () => {
             <div>
                 
                 <div className="position-relative">
-                    <img src={profile.bannerPicture} alt="..." className="w-100"></img>
-                    <img src={profile.profilePicture} alt="..." className="rounded-circle card-img-overlay h-50 top-50 mt-5 ms-3"></img>
+                    <img src={`/images/${profile.bannerPicture}`} alt="..." className="w-100"></img>
+                    <img src={`/images/${profile.profilePicture}`} alt="..." className="rounded-circle card-img-overlay h-50 top-50 mt-5 ms-3"></img>
                 </div>
 
                 <Link to="/tuiter/edit-profile">
